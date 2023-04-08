@@ -101,6 +101,72 @@ details[open] summary {
   border-radius: 90px;
 }
 
+/* Card 2 */
+.card2 {
+  background-color: #1869ff;
+  width: 100%;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.card2 h3 {
+  margin-bottom: 30px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.card2 h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-weight: 900;
+}
+
+.link2 {
+  background-color: #fafafa;
+  font-weight: bold;
+  font-size: 15px;
+  color: #212121;
+  padding: 1rem 1.7rem;
+  border-radius: 90px;
+}
+
+/* Card 3 */
+.card3 {
+  background-color: #343a3e;
+  width: 100%;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.card3 h3 {
+  margin-bottom: 30px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.card3 h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-weight: 900;
+}
+
+.link3 {
+  background-color: #fafafa;
+  font-weight: bold;
+  font-size: 15px;
+  color: #212121;
+  padding: 1rem 1.7rem;
+  border-radius: 90px;
+}
+
 /* Media Queries */
 
 /* Tablet */
@@ -162,6 +228,28 @@ details[open] summary {
   /* Card 1 */
   .card1 {
     background-color: #e74d89;
+    width: 100%;
+    padding: 2rem 3rem;
+    padding-bottom: 5rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fafafa;
+  }
+
+  .card2 {
+    background-color: #1869ff;
+    width: 100%;
+    padding: 2rem 3rem;
+    padding-bottom: 5rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fafafa;
+  }
+
+  .card3 {
+    background-color: #343a3e;
     width: 100%;
     padding: 2rem 3rem;
     padding-bottom: 5rem;
