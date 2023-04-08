@@ -123,21 +123,21 @@ details[open] summary {
   }
   .pp {
     background-color: #343a3e;
-    padding: 2rem 2rem;
+    padding: 2rem 1.3rem;
     border-radius: 10px;
     display: flex;
   }
 
   .pp img {
-    width: 4rem;
+    width: 5rem;
     border-radius: 90%;
   }
 
   .pp h1 {
     color: #fafafa;
-    font-size: 15px;
+    font-size: 19px;
     padding-left: 1.4rem;
-    padding-top: 0.5rem;
+    padding-top: 0.8rem;
   }
 
   .pp p {
@@ -150,7 +150,7 @@ details[open] summary {
   details {
     background-color: transparent;
     border: 2px solid #343a3e;
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
     margin-top: 1rem;
     border-radius: 10px;
     font-size: 20px;
@@ -160,7 +160,7 @@ details[open] summary {
 
   .card1 {
     background-color: #e74d89;
-    padding: 2rem 2.7rem;
+    padding: 2rem 2.4rem;
     margin-top: 1rem;
     border-radius: 10px;
   }
@@ -178,7 +178,7 @@ details[open] summary {
   .card1 p {
     margin-right: 4rem;
     margin-top: 5rem;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .link1 {
