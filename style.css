@@ -119,7 +119,7 @@ details[open] summary {
 /* Mobile Phone */
 @media (max-width: 428px) {
   html {
-    font-size: 80%;
+    font-size: 55%;
   }
   .pp {
     background-color: #343a3e;
