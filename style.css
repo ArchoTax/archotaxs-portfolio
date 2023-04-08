@@ -65,13 +65,15 @@ details[open] summary {
 .hero {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  gap: 5px;
 }
 
 /* Card 1 */
 .card1 {
   background-color: #e74d89;
-  padding: 2rem 2.7rem;
+  width: 100%;
+  padding: 2rem;
+  padding-bottom: 4rem;
   margin-top: 1rem;
   border-radius: 10px;
   font-size: 20px;
@@ -79,32 +81,24 @@ details[open] summary {
 }
 
 .card1 h3 {
-  font-size: 1.2rem;
-  font-weight: lighter;
   margin-bottom: 30px;
+  font-weight: lighter;
+  font-size: 20px;
 }
 
 .card1 h1 {
   font-size: 50px;
-}
-
-.card1 p {
-  margin-right: 4rem;
-  margin-top: 5rem;
-  font-size: 16px;
+  margin-bottom: 50px;
+  font-weight: 900;
 }
 
 .link1 {
   background-color: #fafafa;
+  font-weight: bold;
+  font-size: 15px;
   color: #212121;
-  padding: 0.4rem 1rem;
-  border-radius: 50px;
-  font-weight: 700;
-  margin-top: 4.5rem;
-}
-
-.text {
-  display: flex;
+  padding: 1rem 1.7rem;
+  border-radius: 90px;
 }
 
 /* Media Queries */
@@ -159,40 +153,21 @@ details[open] summary {
     text-decoration: none;
   }
 
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  /* Card 1 */
   .card1 {
     background-color: #e74d89;
-    padding: 2rem 3.2rem;
+    width: 100%;
+    padding: 2rem 3rem;
+    padding-bottom: 5rem;
     margin-top: 1rem;
     border-radius: 10px;
-  }
-
-  .card1 h3 {
-    font-size: 1.8rem;
-    font-weight: lighter;
-    margin-bottom: 30px;
-  }
-
-  .card1 h1 {
-    font-size: 50px;
-  }
-
-  .card1 p {
-    margin-right: 4rem;
-    margin-top: 5rem;
-    font-size: 15px;
-  }
-
-  .link1 {
-    background-color: #fafafa;
-    color: #212121;
-    padding: 0.4rem 1.6rem;
-    border-radius: 50px;
-    font-size: 17px;
-    font-weight: 700;
-    margin-top: 4.5rem;
-  }
-
-  .text {
-    display: flex;
+    font-size: 20px;
+    color: #fafafa;
   }
 }
