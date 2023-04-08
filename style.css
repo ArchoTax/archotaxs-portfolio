@@ -1,0 +1,197 @@
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Satoshi", sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  align-items: center;
+  background-color: #212121;
+}
+
+.align {
+  padding: 1rem;
+}
+
+/* Profile */
+.pp {
+  background-color: #343a3e;
+  padding: 3rem 3rem;
+  border-radius: 15px;
+  display: flex;
+}
+
+.pp img {
+  width: 8rem;
+  border-radius: 90%;
+}
+
+.pp h1 {
+  color: #fafafa;
+  font-size: 40px;
+  padding-left: 2rem;
+  padding-top: 1.3rem;
+}
+
+.pp p {
+  font-size: 20px;
+  padding-left: 2rem;
+  color: #8d8d8d;
+  font-weight: lighter;
+}
+
+/* About Me */
+details {
+  background-color: transparent;
+  border: 2px solid #343a3e;
+  padding: 2rem 3rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fafafa;
+}
+
+details[open] summary {
+  padding-bottom: 1.4rem;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Card 1 */
+.card1 {
+  background-color: #e74d89;
+  padding: 2rem 2.7rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.card1 h3 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.card1 h1 {
+  font-size: 50px;
+}
+
+.card1 p {
+  margin-right: 4rem;
+  margin-top: 5rem;
+  font-size: 16px;
+}
+
+.link1 {
+  background-color: #fafafa;
+  color: #212121;
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-weight: 700;
+  margin-top: 4.5rem;
+}
+
+.text {
+  display: flex;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 800px) {
+  html {
+    font-size: 150%;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 428px) {
+  html {
+    font-size: 80%;
+  }
+  .pp {
+    background-color: #343a3e;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  .pp img {
+    width: 4rem;
+    border-radius: 90%;
+  }
+
+  .pp h1 {
+    color: #fafafa;
+    font-size: 15px;
+    padding-left: 1.4rem;
+    padding-top: 0.5rem;
+  }
+
+  .pp p {
+    font-size: 13px;
+    padding-left: 1.4rem;
+    color: #8d8d8d;
+    font-weight: lighter;
+  }
+
+  details {
+    background-color: transparent;
+    border: 2px solid #343a3e;
+    padding: 2rem 3rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fafafa;
+  }
+
+  .card1 {
+    background-color: #e74d89;
+    padding: 2rem 2.7rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+
+  .card1 h3 {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 30px;
+  }
+
+  .card1 h1 {
+    font-size: 50px;
+  }
+
+  .card1 p {
+    margin-right: 4rem;
+    margin-top: 5rem;
+    font-size: 14px;
+  }
+
+  .link1 {
+    background-color: #fafafa;
+    color: #212121;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 4.5rem;
+  }
+
+  .text {
+    display: flex;
+  }
+}
