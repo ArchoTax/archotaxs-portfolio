@@ -47,7 +47,7 @@ body {
 }
 
 /* About Me */
-details {
+.ttg {
   background-color: transparent;
   border: 2px solid #343a3e;
   padding: 2rem 3rem;
@@ -206,18 +206,6 @@ details[open] summary {
     padding-left: 2rem;
     color: #8d8d8d;
     font-weight: lighter;
-  }
-
-  details {
-    background-color: transparent;
-    border: 2px solid #343a3e;
-    padding: 2rem 2rem;
-    margin-top: 1rem;
-    border-radius: 10px;
-    font-size: 20px;
-    cursor: pointer;
-    color: #fafafa;
-    text-decoration: none;
   }
 
   .hero {
