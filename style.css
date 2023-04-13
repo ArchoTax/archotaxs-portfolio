@@ -58,8 +58,40 @@ body {
   color: #fafafa;
 }
 
+.line {
+  border-top: 2px dotted #343a3e;
+  padding-bottom: 1.4rem;
+}
+
 details[open] summary {
   padding-bottom: 1.4rem;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Triangle styling */
+summary::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 10px solid #fafafa;
+  margin-right: 10px;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+  margin-left: 0.7rem;
+}
+
+/* Triangle rotate animation */
+details[open] summary::before {
+  transform: rotate(90deg);
 }
 
 /* Hero Section */
