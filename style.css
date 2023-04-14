@@ -59,7 +59,7 @@ body {
 }
 
 .line {
-  border-top: 2px dotted #343a3e;
+  border-top: 1.5px dashed #343a3e;
   padding-bottom: 1.4rem;
 }
 
